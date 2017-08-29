@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		DCC50CEE1F4E187A0072EDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50CED1F4E187A0072EDA5 /* AppDelegate.swift */; };
-		DCC50CF01F4E187A0072EDA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50CEF1F4E187A0072EDA5 /* ViewController.swift */; };
+		DCC50CF01F4E187A0072EDA5 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50CEF1F4E187A0072EDA5 /* BattleViewController.swift */; };
 		DCC50CF31F4E187A0072EDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC50CF11F4E187A0072EDA5 /* Main.storyboard */; };
 		DCC50CF51F4E187A0072EDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC50CF41F4E187A0072EDA5 /* Assets.xcassets */; };
 		DCC50CF81F4E187A0072EDA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC50CF61F4E187A0072EDA5 /* LaunchScreen.storyboard */; };
 		DCC50D031F4E187A0072EDA5 /* GambitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D021F4E187A0072EDA5 /* GambitTests.swift */; };
 		DCC50D0E1F4E187A0072EDA5 /* GambitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D0D1F4E187A0072EDA5 /* GambitUITests.swift */; };
+		DCC50D1C1F4E2E4B0072EDA5 /* Main Menu ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D1B1F4E2E4B0072EDA5 /* Main Menu ViewController.swift */; };
+		DCC50D1E1F4E2EB80072EDA5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D1D1F4E2EB80072EDA5 /* ResultViewController.swift */; };
+		DCC50D201F4E2EE40072EDA5 /* Connections ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D1F1F4E2EE40072EDA5 /* Connections ViewController.swift */; };
+		DCC50D221F507EAB0072EDA5 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D211F507EAB0072EDA5 /* Extentions.swift */; };
+		DCC50D241F5092360072EDA5 /* MPCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC50D231F5092360072EDA5 /* MPCHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		DCC50CEA1F4E187A0072EDA5 /* Gambit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gambit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC50CED1F4E187A0072EDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCC50CEF1F4E187A0072EDA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCC50CEF1F4E187A0072EDA5 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
 		DCC50CF21F4E187A0072EDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCC50CF41F4E187A0072EDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC50CF71F4E187A0072EDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		DCC50D091F4E187A0072EDA5 /* GambitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GambitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC50D0D1F4E187A0072EDA5 /* GambitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GambitUITests.swift; sourceTree = "<group>"; };
 		DCC50D0F1F4E187A0072EDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC50D1B1F4E2E4B0072EDA5 /* Main Menu ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Menu ViewController.swift"; sourceTree = "<group>"; };
+		DCC50D1D1F4E2EB80072EDA5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DCC50D1F1F4E2EE40072EDA5 /* Connections ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connections ViewController.swift"; sourceTree = "<group>"; };
+		DCC50D211F507EAB0072EDA5 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		DCC50D231F5092360072EDA5 /* MPCHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				DCC50CED1F4E187A0072EDA5 /* AppDelegate.swift */,
-				DCC50CEF1F4E187A0072EDA5 /* ViewController.swift */,
+				DCC50D1B1F4E2E4B0072EDA5 /* Main Menu ViewController.swift */,
+				DCC50D1F1F4E2EE40072EDA5 /* Connections ViewController.swift */,
+				DCC50CEF1F4E187A0072EDA5 /* BattleViewController.swift */,
+				DCC50D1D1F4E2EB80072EDA5 /* ResultViewController.swift */,
+				DCC50D211F507EAB0072EDA5 /* Extentions.swift */,
+				DCC50D231F5092360072EDA5 /* MPCHandler.swift */,
 				DCC50CF11F4E187A0072EDA5 /* Main.storyboard */,
 				DCC50CF41F4E187A0072EDA5 /* Assets.xcassets */,
 				DCC50CF61F4E187A0072EDA5 /* LaunchScreen.storyboard */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC50CF01F4E187A0072EDA5 /* ViewController.swift in Sources */,
+				DCC50D201F4E2EE40072EDA5 /* Connections ViewController.swift in Sources */,
+				DCC50CF01F4E187A0072EDA5 /* BattleViewController.swift in Sources */,
+				DCC50D221F507EAB0072EDA5 /* Extentions.swift in Sources */,
+				DCC50D1C1F4E2E4B0072EDA5 /* Main Menu ViewController.swift in Sources */,
+				DCC50D1E1F4E2EB80072EDA5 /* ResultViewController.swift in Sources */,
+				DCC50D241F5092360072EDA5 /* MPCHandler.swift in Sources */,
 				DCC50CEE1F4E187A0072EDA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
